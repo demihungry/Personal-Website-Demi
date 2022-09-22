@@ -1,0 +1,126 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+body {
+ background-image: url("assets/gradient.png");
+}
+
+#portfolio{
+  background-image: url("https://webgradients.com/public/webgradients_png/008%20Rainy%20Ashville.png")
+}
+
+/* STYLE TEXT */
+
+header{
+  background-color: #ffc8dd;
+  font-family: Book Antiqua;
+  padding-bottom: 1cm;
+
+}
+h1 {
+  color: rgba(114, 38, 185, 0.74);
+  text-decoration: underline overline;
+  text-align: center;
+  padding-top: 2cm;
+}
+
+h3{
+  color: #FD7F72;
+  text-align: center;
+  padding-top: 1cm;
+
+}
+
+h2{
+  color: rgba(253, 153, 114, 0.795);
+  text-align: center;
+  padding-top: 1cm;
+}
+
+#intro{
+  color: slateblue;
+  font-family: Book Antiqua;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.text{
+  color: slateblue;
+  font-family: Book Antiqua;
+  text-align: center;
+}
+
+main{
+  text-align: center;
+  padding-top: 0.5cm;
+  padding-left: 2cm;
+  padding-right: 2cm;
+  padding-bottom: 3cm;
+}
+
+/* STYLE IMAGES */
+img {
+  
+  border-radius: 20%;
+  border: 4px white dotted;
+  margin-top: 5px;
+  margin-bottom: 30px;
+
+}
+
+
+.hobbies{
+  border-radius:  50%;
+  border: 4px mediumpurple solid;
+  max-width: 300px;
+  max-height: 220px;
+}
+
+.describe{
+  color: slateblue;
+  font-family: Book Antiqua;
+}
+
+.projects{
+   border: 5px mediumpurple solid;
+   margin-top: 40px;
+   margin-bottom: 0px;
+   max-width: 320px ;
+   max-height:  240px;
+}
+
+
+/* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color: pink;
+  overflow: hidden;
+  text-align: center;
+}
+
+.border{
+  border: 5px white dashed;
+  padding: 0.3cm;
+}
+
+li a :hover{
+  background-color: red;
+}
+
+li{
+  display: block;
+}
+
+li a{
+  text-decoration: none;
+  color:mediumpurple;
+  font-size: 0.6cm;
+}
+
+video{
+  padding-top: 1cm;
+  padding-bottom: 0.3cm;
+}
